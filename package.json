@@ -1,0 +1,25 @@
+{
+  "name": "typechain",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "start": "tsc-watch --onSuccess \" node dist/index.js\" "
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ssputnik/typechain.git"
+  },
+  "author": "smchoi here",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/ssputnik/typechain/issues"
+  },
+  "homepage": "https://github.com/ssputnik/typechain#readme",
+  "description": "Learning Typescript by making a Blockchain with it",
+  "dependencies": {
+    "crypto-js": "^3.1.9-1",
+    "global": "^4.4.0",
+    "tsc-watch": "^4.0.0",
+    "typescript": "^3.7.2"
+  }
+}
